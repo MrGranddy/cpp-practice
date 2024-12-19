@@ -39,7 +39,7 @@ bool SavingsAccount::withdraw(double amount) {
 
 }
 
-CheckingAccount::CheckingAccount(unsigned long customerID, double fee_percentage = 0.01){
+CheckingAccount::CheckingAccount(unsigned long customerID, double fee_percentage){
     balance = 0.0;
     this->customerID = customerID;
     this->fee_percentage = fee_percentage;
